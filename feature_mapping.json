@@ -1,0 +1,34 @@
+{
+"cust_prod_mapping":{
+"Cost conscious":"Price ( Per Month/User)",
+"Chat Support":"Chat Support",
+"Social media integration":"Social media integration",
+"Video chat integration":"Video chat integration",
+"Advanced NLP IVR":"Advanced, Natural language IVR and BOT interface, Automated query resolution using BOTs and integration with backend systems",
+"Fully integrated agent desktop":"Agent desktop Integration with backend systems - CRM data access, Case management/ticket system and other backend systems and agent assist tools Accessibility - Agent desktop should be accessble from anywhere to provide  worklocation flexibility and extensibility of contact center",
+"CRMintegrated systems":"CRM integrated desktop",
+"Dashboard Features":"Manager dashboard",
+"Agent - WFM":"Workforce management - Agent skills, hierarchy, shifts..",
+"Voice analytics":"Voice analytics - Sentiment and basic insights",
+"call and agent metrics":"Call and agent metrics",
+"Advanced analytics":"Advanced analytics - Voice, data"
+},
+"cust_requirement_scaling":{"Cost conscious": {"High": 1, "Medium": 3,"Low":5},
+                    "Chat Support": {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "Social media integration" : {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "Video chat integration" : {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "Advanced NLP IVR" : {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "Fully integrated agent desktop" : {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "CRMintegrated systems" : {"Low": 1, "Medium": 2, "High": 5},
+                    "Dashboard Features" : {"No": 3, "Yes": 4},
+                    "Agent - WFM" : {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "Voice analytics" : {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "call and agent metrics" : {"No": 1, "Low": 2, "Medium": 3, "High": 5},
+                    "Advanced analytics" : {"No": 1, "Low": 2, "Medium": 3, "High": 5}
+                },
+"categorical_features":["Industry","Cost conscious","Chat Support", "Social media integration", "Video chat integration","Advanced NLP IVR", "Fully integrated agent desktop","CRMintegrated systems", "Dashboard Features", "Agent - WFM","Voice analytics", "call and agent metrics", "Advanced analytics"]				
+}
+
+
+
+
